@@ -1,0 +1,31 @@
+{
+  "name": "flutterback",
+  "version": "1.0.0",
+  "description": "project work",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "set NODE_ENV=dev && nodemon app.js"
+  },
+  "keywords": [
+    "express",
+    "chroma"
+  ],
+  "author": "Kristóf Krasznai",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.1.0",
+    "body-parser": "^1.20.2",
+    "ccxt": "^3.1.24",
+    "cors": "^2.8.5",
+    "dotenv": "^16.1.4",
+    "express": "^4.18.2",
+    "fs": "^0.0.1-security",
+    "jsonwebtoken": "^9.0.0",
+    "mongodb": "^5.2.0",
+    "mongoose": "^7.0.3",
+    "node-cron": "^3.0.3",
+    "nodemailer": "^6.9.13",
+    "nodemon": "^2.0.22"
+  }
+}
